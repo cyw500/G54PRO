@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+\usepackage{import}
+\usepackage{preamble}
+
+
+\begin{document}
+
+\import{./}{title.tex}
+
+\newpage
+\pagenumbering{gobble}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+
+\pagenumbering{arabic}
+\section{Introduction to strabisma}
+%https://www.sightmd.com/types-eye-conditions-long-island/pediatric-ophthalmology/strabismus/
+https://www.rcophth.ac.uk/wp-content/uploads/2017/09/Strabismus-surgery-for-adults-in-the-United-Kingdom-indications-evidence-base-and-benefits.pdf
+Strabismus, also know as squint, is an eye condition where the eyes do not look in the same direction as each other
+
+strabismic amblyopia
+
+impact of amblyopia and strabismus on quality of life
+
+Strabismus, the technical term for eye turn, occurs when one of the two eyes does not aim at the spot one is looking at. An eye may turn inwards (esotropia), outwards (exotropia), or upwards (hypertropia).
+Individuals sees double (usually occurring when the eye turn develops after 6 years of age); one eye is suppressed or turned off to avoid double vision; there is a loss of two-eyed depth perception (stereopsis or 3D); and/or the eyes develop abnormal binocular coordination
+\subsection{Cause of strabismus}
+\subsection{Visual fields}
+
+\subsection{Retinal correspondence}
+%https://www.mcgill.ca/mvr/files/mvr/visdevelopment.pdf
+%https://www.slideshare.net/Rajeshwori/anomalous-retinal-correspondence
+%https://www.youtube.com/watch?v=rKUA1aJKzFQ&t=157s
+%https://www.slideshare.net/ompatel9889/adaptive-mechanism-of-squint %slide 9
+%https://littlegreymatters.com/tag/stereo-blindness/
+%https://www.physics.ohio-state.edu/~kagan/AS1138/Lectures/17_eye.htm
+Under normal circumstances, the brain develops to correlate the visual input at each fovea coming from straight in front.
+
+The left visual field stimulates nasal retina in the left eye and temporal retina in the right eye. The right visual field stimulate the temporal retina in the left eye and nasal retina in the right eye.
+This is known as normal retinal correspondence.
+When vision is disrupted during visual pathway development, abnormal cortical alignment of vision may develop.
+
+Retinal correspondence can be of two types: normal and abnormal.
+A small angle of squint may be compensated by the readjustment of the abnormal retinal correspondence to regain the binocular competence 
+Abnormal retinal correspondence (ARC), also called Anomalous retinal correspondence
+
+The left side for the 
+left nasal field
+
+%https://www.youtube.com/watch?v=cG5ZuK0_qtc
+%https://www.ncbi.nlm.nih.gov/books/NBK10944/
+\citep{Hussain2018}
+
+
+correlation 
+%http://r-statistics.co/Linear-Regression.html
+\section{Data pre-process}
+\subsection{Principal component analysis (PCA)}
+\subsection{Data augmentation}
+
+\section{Data exploring}
+ data summery
+ dispersion
+ visualisation
+\section{Machine learning}
+Regression and classification
+Regression models predict a continuous variable, such as age or sunlight intensity
+%Why not approach classification through regression?
+%https://stats.stackexchange.com/questions/22381/why-not-approach-classification-through-regression
+\subsection{Linear regression}
+\[ y = ax + b \]
+
+
+\[ f^TW = s^T\]
+\[ f^i = \begin{bmatrix} f^i_1, f^i_2, \dots, f^i_M \end{bmatrix}^T \qquad and \qquad s = \begin{bmatrix} x_1, y_1, x_2, y_2, \dots, x_N, y_N \end{bmatrix}^T \]
+\qquad\qquad f\textsuperscript{i}, the i-th person with M features \qquad\qquad N, landmarks
+%https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html#sigmoid-activation
+%https://stats.stackexchange.com/questions/22381/why-not-approach-classification-through-regression
+
+\subsection{Logistic regression}
+\subsection{Support vector machine (SVM)}
+\subsection{Support vector regression (SVR)}
+\subsection{One-vs-all classification}
+2\textsuperscript{4} - 2 combinations
+\begin{figure}
+    \centering
+    \includegraphics{Images}
+    \caption{Caption}
+    \label{fig:1vAll}
+\end{figure}
+\subsection{k-nearest neighbour classifier}
+\subsection{Artificial neural network}
+\subsection{RNN}
+
+\section{Cross validation}
+\subsection{}
+
+\section{Machine learning libraries}
+%http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.81585&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
+%https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software % deep learning
+
+\newpage
+\bibliographystyle{agsm}
+\bibliography{references,mendeley}
+\end{document}

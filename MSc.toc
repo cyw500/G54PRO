@@ -1,0 +1,22 @@
+\select@language {english}
+\contentsline {section}{Acknowledgements}{i}{Doc-Start}
+\contentsline {section}{Declaration}{i}{Doc-Start}
+\contentsline {section}{Abstract}{ii}{Doc-Start}
+\contentsline {section}{Abbreviations}{iii}{Doc-Start}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Background}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Strabismus}{2}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Image formation principle}{3}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Introduction to visual pathway}{3}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Statistical analysis/data pre-processing}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Machine learning}{3}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Subsection}{3}{subsubsection.2.3.1}
+\contentsline {paragraph}{\numberline {2.3.1.1}Subsubsection}{3}{paragraph.2.3.1.1}
+\contentsline {section}{\numberline {3}Specification, Design, Implementation.}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Statistical analysis/data pre-processing}{4}{subsection.3.1}
+\contentsline {section}{\numberline {4}Evaluation}{5}{section.4}
+\contentsline {section}{\numberline {5}Conclusions}{5}{section.5}
+\contentsline {section}{References}{6}{section.5}
+\contentsline {section}{Appendices}{6}{section.5}
+\contentsline {subsection}{\numberline {A}Code}{6}{subsection.Alph0.1}
+\contentsfinish 

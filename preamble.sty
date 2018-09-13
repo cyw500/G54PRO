@@ -1,0 +1,98 @@
+\ProvidesPackage{preamble}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx, wrapfig}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{listings}
+\usepackage{algorithm2e}
+\usepackage{graphicx}
+%\usepackage{caption} 
+\usepackage{subcaption}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[font=small,skip=5pt]{caption}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\definecolor{codegreen}{rgb}{0.32,0.75,0.35}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codebrown}{rgb}{0.72,0.54,0}
+\definecolor{backcolour}{rgb}{0,0.17,0.26}
+\definecolor{comment}{HTML}{6a737d}
+\definecolor{keyword}{HTML}{d73a49}
+\definecolor{niceBlue}{HTML}{005cc5}
+\lstdefinestyle{whitestyle}{
+    commentstyle=\color{comment},
+    keywordstyle=\color{keyword},
+    numberstyle=\ttfamily\tiny\color{backcolour},
+    stringstyle=\color{ProcessBlue},
+    ndkeywordstyle=\color{niceBlue},
+    basicstyle=\ttfamily\footnotesize\color{black},
+    breakatwhitespace=false,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+\lstset{breaklines=true}
+\lstset{style=whitestyle}
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break,await, async, let, const},
+  ndkeywords={class, export, boolean, throw, implements, import, this,  true, false},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  morestring=[b]',
+  morestring=[b]"
+}
+\lstset{language=JavaScript}
+\graphicspath{ {Images/} } 
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+% total={170mm,257mm},
+ left=24mm,
+ top=24mm,
+ right=24mm,
+ bottom=24mm
+ }
+\usepackage[title]{appendix}
+\usepackage{lscape}
+\usepackage{lipsum}
+\usepackage{soul}
+
+\newcommand{\appsection}[1]% #1 = appendix name
+ {\subsection{#1}%
+  \stepcounter{section}%
+  \setcounter{subsection}{\value{section}}}
+  
+\usepackage[norefeq]{nomencl}
+\renewcommand{\nomname}{Abbreviations}
+%\pagestyle{empty}
+\makenomenclature
+
+\usepackage{titletoc}
+\usepackage[none]{hyphenat}
+
+\usepackage[absolute]{textpos}
+
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
